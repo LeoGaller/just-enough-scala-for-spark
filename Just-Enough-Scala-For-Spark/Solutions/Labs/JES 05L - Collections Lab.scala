@@ -42,7 +42,7 @@ var vectorOfWords = Vector("the", "dog", "visited", "the", "firehouse")
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 var vectorOfWordsExpected = Vector("the", "dog", "visited", "the", "firehouse")
 assert (vectorOfWords == vectorOfWordsExpected, s"Expected the result to be ${vectorOfWordsExpected} but found ${vectorOfWords}")
@@ -64,7 +64,7 @@ var uniqueWordsVector = vectorOfWords.distinct
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 var uniqueWordsVectorExpected = Vector("the", "dog", "visited", "firehouse")
 assert (uniqueWordsVector == uniqueWordsVectorExpected, s"Expected the result to be ${uniqueWordsVectorExpected} but found ${uniqueWordsVector}")
@@ -84,7 +84,7 @@ val sortedWordsVector = uniqueWordsVector.sorted
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 var sortedWordsVectorExpected = Vector("dog", "firehouse", "the", "visited")
 assert (sortedWordsVector == sortedWordsVectorExpected, s"""Expected the result to be ${sortedWordsVectorExpected} but found ${sortedWordsVector}""")
@@ -108,7 +108,7 @@ for (word <- reversedWordsVector) {
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 var reversedWordsVectorExpected = Vector("visited", "the", "firehouse", "dog")
 assert (reversedWordsVector == reversedWordsVectorExpected, s"Expected the result to be ${reversedWordsVectorExpected} but found ${reversedWordsVector}")
@@ -166,7 +166,7 @@ def weather(temperature: Double, humidity: Double): (String, String) = {
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 var expectedHeatMoistureTestOne = ("Hot", "Humid")
 val heatMoistureTestOne = weather(90, 45)
@@ -193,7 +193,7 @@ val (heatOne, moistureOne) = weather(100, 60)
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 var expectedheatOne = "Hot"
 var expectedmoistureOne = "Humid"
@@ -237,7 +237,7 @@ val uniqueSetOfItems = allBaskets.toSet
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 var uniqueSetOfItemsExpected = Set("potato", "milk", "egg", "carrot", "beer")
 assert (uniqueSetOfItems == uniqueSetOfItemsExpected, s"Expected the result to be ${uniqueSetOfItemsExpected} but found ${uniqueSetOfItems}")
@@ -259,7 +259,7 @@ val commonSetOfItems = basket1.toSet.intersect(basket3.toSet)
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 var commonSetOfItemsExpected = Set("milk", "potato", "egg")
 assert (commonSetOfItems == commonSetOfItemsExpected, s"Expected the result to be ${commonSetOfItemsExpected} but found ${commonSetOfItems}")
@@ -297,7 +297,7 @@ var customerInfo = scala.collection.mutable.Map("sally@taylor.com" -> ("Sally Ta
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 var customerInfoExpected = ("Sally Taylor", 32)
 assert (customerInfo("sally@taylor.com") == customerInfoExpected, s"Expected the result to be ${customerInfoExpected} but found ${customerInfo("sally@taylor.com")}")
@@ -318,7 +318,7 @@ customerInfo("jiminy@cricket.com") = ("Jiminy Cricket", 45)
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 var customerInfoExpected = ("Jiminy Cricket", 45)
 assert (customerInfo("jiminy@cricket.com") == customerInfoExpected, s"Expected the result to be ${customerInfoExpected} but found ${customerInfo("sally@taylor.com")}")
@@ -332,7 +332,7 @@ assert (customerInfo("jiminy@cricket.com") == customerInfoExpected, s"Expected t
 // COMMAND ----------
 
 // MAGIC %md-sandbox
-// MAGIC &copy; 2020 Databricks, Inc. All rights reserved.<br/>
-// MAGIC Apache, Apache Spark, Spark and the Spark logo are trademarks of the <a href="http://www.apache.org/">Apache Software Foundation</a>.<br/>
+// MAGIC &copy; 2021 Databricks, Inc. All rights reserved.<br/>
+// MAGIC Apache, Apache Spark, Spark and the Spark logo are trademarks of the <a href="https://www.apache.org/">Apache Software Foundation</a>.<br/>
 // MAGIC <br/>
-// MAGIC <a href="https://databricks.com/privacy-policy">Privacy Policy</a> | <a href="https://databricks.com/terms-of-use">Terms of Use</a> | <a href="http://help.databricks.com/">Support</a>
+// MAGIC <a href="https://databricks.com/privacy-policy">Privacy Policy</a> | <a href="https://databricks.com/terms-of-use">Terms of Use</a> | <a href="https://help.databricks.com/">Support</a>

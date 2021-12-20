@@ -14,7 +14,7 @@
 
 // COMMAND ----------
 
-//TODO
+// TODO
 
 val aString = "Tomorrow is another Day"
 
@@ -23,7 +23,7 @@ val lowerCaseStr = FILL_IN
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 val lowerCaseStrExpected = "tomorrow is another day"
 assert (lowerCaseStr == lowerCaseStrExpected, s"Expected the result to be ${lowerCaseStrExpected} but found ${lowerCaseStr}")
@@ -38,14 +38,14 @@ assert (lowerCaseStr == lowerCaseStrExpected, s"Expected the result to be ${lowe
 
 // COMMAND ----------
 
-//TODO
+// TODO
 
 // Split the string by space separator
 val wordsList = FILL_IN 
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 val wordsListExpected = Vector("tomorrow", "is", "another", "day")
 assert (wordsList.toVector == wordsListExpected, s"Expected the result to be ${wordsListExpected} but found ${wordsList.toVector}")
@@ -60,14 +60,14 @@ assert (wordsList.toVector == wordsListExpected, s"Expected the result to be ${w
 
 // COMMAND ----------
 
-//TODO
+// TODO
 
 // Join the list of words into a string with words separated by ","
 val newString = FILL_IN 
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 val newStringExpected = "tomorrow,is,another,day"
 assert (newString == newStringExpected, s"Expected the result to be ${newStringExpected} but found ${newString}")
@@ -82,7 +82,7 @@ assert (newString == newStringExpected, s"Expected the result to be ${newStringE
 
 // COMMAND ----------
 
-//TODO
+// TODO
 
 // import math library
 FILL_IN
@@ -94,7 +94,7 @@ val absoluteValue = FILL_IN
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 val absoluteValueExpected = 23.45
 assert (absoluteValue == absoluteValueExpected, s"Expected the result to be ${absoluteValueExpected} but found ${absoluteValue}")
@@ -109,7 +109,7 @@ assert (absoluteValue == absoluteValueExpected, s"Expected the result to be ${ab
 
 // COMMAND ----------
 
-//TODO
+// TODO
 
 val anotherNumber = 100.0
 
@@ -118,7 +118,7 @@ val logValue = FILL_IN
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 val logValueExpected = 2.0
 assert (logValue == logValueExpected, s"Expected the result to be ${logValueExpected} but found ${logValue}")
@@ -132,7 +132,7 @@ assert (logValue == logValueExpected, s"Expected the result to be ${logValueExpe
 // COMMAND ----------
 
 // MAGIC %md-sandbox
-// MAGIC &copy; 2020 Databricks, Inc. All rights reserved.<br/>
-// MAGIC Apache, Apache Spark, Spark and the Spark logo are trademarks of the <a href="http://www.apache.org/">Apache Software Foundation</a>.<br/>
+// MAGIC &copy; 2021 Databricks, Inc. All rights reserved.<br/>
+// MAGIC Apache, Apache Spark, Spark and the Spark logo are trademarks of the <a href="https://www.apache.org/">Apache Software Foundation</a>.<br/>
 // MAGIC <br/>
-// MAGIC <a href="https://databricks.com/privacy-policy">Privacy Policy</a> | <a href="https://databricks.com/terms-of-use">Terms of Use</a> | <a href="http://help.databricks.com/">Support</a>
+// MAGIC <a href="https://databricks.com/privacy-policy">Privacy Policy</a> | <a href="https://databricks.com/terms-of-use">Terms of Use</a> | <a href="https://help.databricks.com/">Support</a>

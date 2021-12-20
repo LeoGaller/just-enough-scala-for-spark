@@ -35,14 +35,14 @@
 
 // COMMAND ----------
 
-//TODO
+// TODO
 
 // Define a vector named vectorOfWords and initilize with the list of words (The, dog, visited, the, firehouse)
 FILL_IN 
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 var vectorOfWordsExpected = Vector("the", "dog", "visited", "the", "firehouse")
 assert (vectorOfWords == vectorOfWordsExpected, s"Expected the result to be ${vectorOfWordsExpected} but found ${vectorOfWords}")
@@ -58,13 +58,13 @@ assert (vectorOfWords == vectorOfWordsExpected, s"Expected the result to be ${ve
 
 // COMMAND ----------
 
-//TODO
+// TODO
 
 FILL_IN 
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 var uniqueWordsVectorExpected = Vector("the", "dog", "visited", "firehouse")
 assert (uniqueWordsVector == uniqueWordsVectorExpected, s"Expected the result to be ${uniqueWordsVectorExpected} but found ${uniqueWordsVector}")
@@ -78,13 +78,13 @@ assert (uniqueWordsVector == uniqueWordsVectorExpected, s"Expected the result to
 
 // COMMAND ----------
 
-//TODO
+// TODO
 
 FILL_IN 
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 var sortedWordsVectorExpected = Vector("dog", "firehouse", "the", "visited")
 assert (sortedWordsVector == sortedWordsVectorExpected, s"""Expected the result to be ${sortedWordsVectorExpected} but found ${sortedWordsVector}""")
@@ -98,7 +98,7 @@ assert (sortedWordsVector == sortedWordsVectorExpected, s"""Expected the result 
 
 // COMMAND ----------
 
-//TODO
+// TODO
 
 // Revese the words in the vector
 FILL_IN 
@@ -108,7 +108,7 @@ FILL_IN
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 var reversedWordsVectorExpected = Vector("visited", "the", "firehouse", "dog")
 assert (reversedWordsVector == reversedWordsVectorExpected, s"Expected the result to be ${reversedWordsVectorExpected} but found ${reversedWordsVector}")
@@ -132,14 +132,14 @@ assert (reversedWordsVector == reversedWordsVectorExpected, s"Expected the resul
 
 // COMMAND ----------
 
-//TODO
+// TODO
 
 // Define the method weather
 FILL_IN 
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 var expectedHeatMoistureTestOne = ("Hot", "Humid")
 val heatMoistureTestOne = weather(90, 45)
@@ -160,14 +160,14 @@ assert (heatMoistureTestTwo == expectedHeatMoistureTestTwo, s"Expected the resul
 
 // COMMAND ----------
 
-//TODO
+// TODO
 
 // Invoke for Day One
 FILL_IN 
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 var expectedheatOne = "Hot"
 var expectedmoistureOne = "Humid"
@@ -210,7 +210,7 @@ val uniqueSetOfItems = FILL_IN
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 var uniqueSetOfItemsExpected = Set("potato", "milk", "egg", "carrot", "beer")
 assert (uniqueSetOfItems == uniqueSetOfItemsExpected, s"Expected the result to be ${uniqueSetOfItemsExpected} but found ${uniqueSetOfItems}")
@@ -225,14 +225,14 @@ assert (uniqueSetOfItems == uniqueSetOfItemsExpected, s"Expected the result to b
 
 // COMMAND ----------
 
-//TODO
+// TODO
 
 // Find the common set of items bought in basket1 and basket3
 val commonSetOfItems = FILL_IN 
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 var commonSetOfItemsExpected = Set("milk", "potato", "egg")
 assert (commonSetOfItems == commonSetOfItemsExpected, s"Expected the result to be ${commonSetOfItemsExpected} but found ${commonSetOfItems}")
@@ -263,7 +263,7 @@ assert (commonSetOfItems == commonSetOfItemsExpected, s"Expected the result to b
 
 // COMMAND ----------
 
-//TODO
+// TODO
 
 // import mutable map
 FILL_IN
@@ -273,7 +273,7 @@ var customerInfo = FILL_IN
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 var customerInfoExpected = ("Sally Taylor", 32)
 assert (customerInfo("sally@taylor.com") == customerInfoExpected, s"Expected the result to be ${customerInfoExpected} but found ${customerInfo("sally@taylor.com")}")
@@ -288,14 +288,14 @@ assert (customerInfo("sally@taylor.com") == customerInfoExpected, s"Expected the
 
 // COMMAND ----------
 
-//TODO
+// TODO
 
 // Add the new customer information
 FILL_IN
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 var customerInfoExpected = ("Jiminy Cricket", 45)
 assert (customerInfo("jiminy@cricket.com") == customerInfoExpected, s"Expected the result to be ${customerInfoExpected} but found ${customerInfo("sally@taylor.com")}")
@@ -309,7 +309,7 @@ assert (customerInfo("jiminy@cricket.com") == customerInfoExpected, s"Expected t
 // COMMAND ----------
 
 // MAGIC %md-sandbox
-// MAGIC &copy; 2020 Databricks, Inc. All rights reserved.<br/>
-// MAGIC Apache, Apache Spark, Spark and the Spark logo are trademarks of the <a href="http://www.apache.org/">Apache Software Foundation</a>.<br/>
+// MAGIC &copy; 2021 Databricks, Inc. All rights reserved.<br/>
+// MAGIC Apache, Apache Spark, Spark and the Spark logo are trademarks of the <a href="https://www.apache.org/">Apache Software Foundation</a>.<br/>
 // MAGIC <br/>
-// MAGIC <a href="https://databricks.com/privacy-policy">Privacy Policy</a> | <a href="https://databricks.com/terms-of-use">Terms of Use</a> | <a href="http://help.databricks.com/">Support</a>
+// MAGIC <a href="https://databricks.com/privacy-policy">Privacy Policy</a> | <a href="https://databricks.com/terms-of-use">Terms of Use</a> | <a href="https://help.databricks.com/">Support</a>

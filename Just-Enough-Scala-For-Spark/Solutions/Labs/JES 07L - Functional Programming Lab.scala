@@ -55,7 +55,7 @@ var  updatedStudentsRecords = studentsRecords.map(x => (x._1, x._2 + 10) )
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 var updatedStudentsRecordsExpected = List(
   ("Peter", 86.0),
@@ -84,7 +84,7 @@ var selectedStudents = updatedStudentsRecords.filter(x => x._2 > 50).map(x => x.
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 var selectedStudentsExpected = Vector("Peter", "Rahul", "Lisa", "Naren", "Wang")
 assert (selectedStudents == selectedStudentsExpected, s"Expected the result to be ${selectedStudentsExpected} but found ${selectedStudents}")
@@ -106,7 +106,7 @@ var averageScore = totalScore / updatedStudentsRecords.size
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 var averageScoreExpected = 59.57
 // rounding off the results to two decimal places for comparison
@@ -122,7 +122,7 @@ assert (averageScore == averageScoreExpected, s"Expected the result to be ${aver
 // COMMAND ----------
 
 // MAGIC %md-sandbox
-// MAGIC &copy; 2020 Databricks, Inc. All rights reserved.<br/>
-// MAGIC Apache, Apache Spark, Spark and the Spark logo are trademarks of the <a href="http://www.apache.org/">Apache Software Foundation</a>.<br/>
+// MAGIC &copy; 2021 Databricks, Inc. All rights reserved.<br/>
+// MAGIC Apache, Apache Spark, Spark and the Spark logo are trademarks of the <a href="https://www.apache.org/">Apache Software Foundation</a>.<br/>
 // MAGIC <br/>
-// MAGIC <a href="https://databricks.com/privacy-policy">Privacy Policy</a> | <a href="https://databricks.com/terms-of-use">Terms of Use</a> | <a href="http://help.databricks.com/">Support</a>
+// MAGIC <a href="https://databricks.com/privacy-policy">Privacy Policy</a> | <a href="https://databricks.com/terms-of-use">Terms of Use</a> | <a href="https://help.databricks.com/">Support</a>

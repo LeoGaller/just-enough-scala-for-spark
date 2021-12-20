@@ -37,7 +37,7 @@
 
 // COMMAND ----------
 
-//TODO
+// TODO
 
 // Define a custom exception
 FILL_IN 
@@ -54,7 +54,7 @@ FILL_IN
 
 // COMMAND ----------
 
-//TODO
+// TODO
 
 def getBMIStats(weight: Double, height: Double, bmiCutoff: Double = 25.0): String = {
   
@@ -92,7 +92,7 @@ FILL_IN
 
 // COMMAND ----------
 
-//TODO
+// TODO
 
 var firstAdvisory = FILL_IN
 var secondAdvisory = FILL_IN
@@ -100,7 +100,7 @@ var thirdAdvisory = FILL_IN
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 var firstAdvisoryExpected = "Normal"
 var secondAdvisoryExpected = "INVALID INPUTS"
@@ -110,11 +110,10 @@ assert (firstAdvisory == firstAdvisoryExpected, s"Expected the result to be ${fi
 assert (secondAdvisory == secondAdvisoryExpected, s"Expected the result to be ${secondAdvisoryExpected} but found ${secondAdvisory}")
 assert (thirdAdvisory == thirdAdvisoryExpected, s"Expected the result to be ${thirdAdvisoryExpected} but found ${thirdAdvisory}")
 
-
 // COMMAND ----------
 
 // MAGIC %md-sandbox
-// MAGIC &copy; 2020 Databricks, Inc. All rights reserved.<br/>
-// MAGIC Apache, Apache Spark, Spark and the Spark logo are trademarks of the <a href="http://www.apache.org/">Apache Software Foundation</a>.<br/>
+// MAGIC &copy; 2021 Databricks, Inc. All rights reserved.<br/>
+// MAGIC Apache, Apache Spark, Spark and the Spark logo are trademarks of the <a href="https://www.apache.org/">Apache Software Foundation</a>.<br/>
 // MAGIC <br/>
-// MAGIC <a href="https://databricks.com/privacy-policy">Privacy Policy</a> | <a href="https://databricks.com/terms-of-use">Terms of Use</a> | <a href="http://help.databricks.com/">Support</a>
+// MAGIC <a href="https://databricks.com/privacy-policy">Privacy Policy</a> | <a href="https://databricks.com/terms-of-use">Terms of Use</a> | <a href="https://help.databricks.com/">Support</a>

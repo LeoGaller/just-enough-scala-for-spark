@@ -85,7 +85,7 @@
 
 // COMMAND ----------
 
-//TODO
+// TODO
 
 val RevenueInfo = FILL_IN
 
@@ -112,15 +112,15 @@ val RevenueInfo = FILL_IN
 
 // COMMAND ----------
 
-//TODO
+// TODO
 
-Define the method validateRecord()
+// Define the method validateRecord()
 
 FILL_IN
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 var test1Str = validateRecord("Q1-2018,Exercise_Fitness,10.13")
 var test1StrExpected = ("GOOD","Q1-2018,Exercise_Fitness,10.13")
@@ -153,9 +153,9 @@ assert (test3Str == test3StrExpected, s"Expected the result to be ${test3StrExpe
 
 // COMMAND ----------
 
-//TODO
+// TODO
 
-Define the method parsetData()
+// Define the method parsetData()
 
 FILL_IN
 
@@ -170,15 +170,15 @@ FILL_IN
 
 // COMMAND ----------
 
-//TODO
+// TODO
 
-Filter out good and bad records and assign to variables goodrecs and badrecs respectively
+// Filter out good and bad records and assign to variables goodrecs and badrecs respectively
 
 FILL_IN
 
 // COMMAND ----------
 
-//TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 var goodrecsLen = goodrecs.size
 var goodrecsLenExpected = 11
@@ -202,9 +202,9 @@ assert (badrecsLen == badrecsLenExpected, s"Expected the result to be ${badrecsL
 
 // COMMAND ----------
 
-//TODO
+// TODO
 
-Define a case class CategoryQuarterlyRecord 
+// Define a case class CategoryQuarterlyRecord 
 
 FILL_IN
 
@@ -220,15 +220,15 @@ FILL_IN
 
 // COMMAND ----------
 
-//TODO
+// TODO
 
-Define the method convertToClass()
+// Define the method convertToClass()
 
 FILL_IN
 
 // COMMAND ----------
 
-//TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 var caseClass = convertToClass("Q1-2018,Exercise_Fitness,10.33")
 var caseClassExpected = CategoryQuarterlyRecord("Q1-2018","Exercise_Fitness","10.33".toFloat)
@@ -246,13 +246,13 @@ assert (caseClass == caseClassExpected, s"Expected the result to be ${caseClassE
 
 // COMMAND ----------
 
-//TODO
+// TODO
 
 val categoryRecs = FILL_IN
 
 // COMMAND ----------
 
-//TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 var categoryRecsLen = goodrecs.size
 var categoryRecsLenExpected = 11
@@ -273,9 +273,9 @@ assert (categoryRecsLen == categoryRecsLenExpected, s"Expected the result to be 
 
 // COMMAND ----------
 
-//TODO
+// TODO
 
-Define the class CompanyPerformance
+// Define the class CompanyPerformance
 
 FILL_IN
 
@@ -292,9 +292,9 @@ FILL_IN
 
 // COMMAND ----------
 
-//TODO
+// TODO
 
-Calculate and store company revenue performance information into the variables below
+// Calculate and store company revenue performance information into the variables below
 
 val companyPerf2018 = FILL_IN
 val totalRevenue = FILL_IN
@@ -302,7 +302,7 @@ val totalRevenueInCategory = FILL_IN
 
 // COMMAND ----------
 
-//TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 var totalRevenueExpected = 57.45f
 var totalCategoryRevenueExpected = 24.98f
@@ -322,7 +322,7 @@ assert (totalRevenueInCategory == totalCategoryRevenueExpected, s"Expected the r
 // COMMAND ----------
 
 // MAGIC %md-sandbox
-// MAGIC &copy; 2020 Databricks, Inc. All rights reserved.<br/>
-// MAGIC Apache, Apache Spark, Spark and the Spark logo are trademarks of the <a href="http://www.apache.org/">Apache Software Foundation</a>.<br/>
+// MAGIC &copy; 2021 Databricks, Inc. All rights reserved.<br/>
+// MAGIC Apache, Apache Spark, Spark and the Spark logo are trademarks of the <a href="https://www.apache.org/">Apache Software Foundation</a>.<br/>
 // MAGIC <br/>
-// MAGIC <a href="https://databricks.com/privacy-policy">Privacy Policy</a> | <a href="https://databricks.com/terms-of-use">Terms of Use</a> | <a href="http://help.databricks.com/">Support</a>
+// MAGIC <a href="https://databricks.com/privacy-policy">Privacy Policy</a> | <a href="https://databricks.com/terms-of-use">Terms of Use</a> | <a href="https://help.databricks.com/">Support</a>

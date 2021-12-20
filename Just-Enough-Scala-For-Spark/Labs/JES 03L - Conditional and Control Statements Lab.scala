@@ -34,7 +34,7 @@
 
 // COMMAND ----------
 
-//TODO
+// TODO
 
 // Define a val named a with value 1 and another val named b with value 5.
 
@@ -52,7 +52,7 @@ print("The value of result: ", result)
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 var resultExpected = "a is less than b"
 assert (result == resultExpected, s"Expected the result to be ${resultExpected} but found ${result}")
@@ -69,7 +69,7 @@ assert (result == resultExpected, s"Expected the result to be ${resultExpected} 
 
 // COMMAND ----------
 
-//TODO
+// TODO
 
 // Define a val named c to 5.
 
@@ -87,7 +87,7 @@ print("The value of result: ", result)
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 var resultExpected = "a is less than c"
 assert (result == resultExpected, s"Expected the result to be ${resultExpected} but found ${result}")
@@ -132,7 +132,7 @@ val sequenceOfNumbers = FILL_IN
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 var sequenceOfNumbersExpected = 1 until 10
 assert (sequenceOfNumbers == sequenceOfNumbersExpected, s"Expected the result to be ${sequenceOfNumbersExpected} but found ${sequenceOfNumbers}")
@@ -159,7 +159,7 @@ println("Total sum is: " + sumOfSequence)
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 var sumOfSequenceExpected = 45
 assert (sumOfSequence == sumOfSequenceExpected, s"Expected the result to be ${sumOfSequenceExpected} but found ${sumOfSequence}")
@@ -191,7 +191,7 @@ println("Sum of odd number is: " + sumOfOdds)
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 var sumOfEvensExpected = 20
 var sumOfOddsExpected = 25
@@ -207,7 +207,7 @@ assert (sumOfOdds == sumOfOddsExpected, s"Expected the result to be ${sumOfOddsE
 // COMMAND ----------
 
 // MAGIC %md-sandbox
-// MAGIC &copy; 2020 Databricks, Inc. All rights reserved.<br/>
-// MAGIC Apache, Apache Spark, Spark and the Spark logo are trademarks of the <a href="http://www.apache.org/">Apache Software Foundation</a>.<br/>
+// MAGIC &copy; 2021 Databricks, Inc. All rights reserved.<br/>
+// MAGIC Apache, Apache Spark, Spark and the Spark logo are trademarks of the <a href="https://www.apache.org/">Apache Software Foundation</a>.<br/>
 // MAGIC <br/>
-// MAGIC <a href="https://databricks.com/privacy-policy">Privacy Policy</a> | <a href="https://databricks.com/terms-of-use">Terms of Use</a> | <a href="http://help.databricks.com/">Support</a>
+// MAGIC <a href="https://databricks.com/privacy-policy">Privacy Policy</a> | <a href="https://databricks.com/terms-of-use">Terms of Use</a> | <a href="https://help.databricks.com/">Support</a>

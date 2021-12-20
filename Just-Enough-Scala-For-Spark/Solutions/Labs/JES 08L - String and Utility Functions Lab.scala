@@ -23,7 +23,7 @@ val lowerCaseStr = aString.toLowerCase
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 val lowerCaseStrExpected = "tomorrow is another day"
 assert (lowerCaseStr == lowerCaseStrExpected, s"Expected the result to be ${lowerCaseStrExpected} but found ${lowerCaseStr}")
@@ -45,7 +45,7 @@ val wordsList = lowerCaseStr.split(' ') // The default separator is also a space
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 val wordsListExpected = Vector("tomorrow", "is", "another", "day")
 assert (wordsList.toVector == wordsListExpected, s"Expected the result to be ${wordsListExpected} but found ${wordsList.toVector}")
@@ -67,7 +67,7 @@ val newString = wordsList.mkString(",")
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 val newStringExpected = "tomorrow,is,another,day"
 assert (newString == newStringExpected, s"Expected the result to be ${newStringExpected} but found ${newString}")
@@ -95,7 +95,7 @@ val absoluteValue = math.abs(aNumber)
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 val absoluteValueExpected = 23.45
 assert (absoluteValue == absoluteValueExpected, s"Expected the result to be ${absoluteValueExpected} but found ${absoluteValue}")
@@ -119,7 +119,7 @@ val logValue = math.log10(anotherNumber)
 
 // COMMAND ----------
 
-// TEST - Run this cell to test your solution.
+// Test: Run this cell to test your solution.
 
 val logValueExpected = 2.0
 assert (logValue == logValueExpected, s"Expected the result to be ${logValueExpected} but found ${logValue}")
@@ -133,7 +133,7 @@ assert (logValue == logValueExpected, s"Expected the result to be ${logValueExpe
 // COMMAND ----------
 
 // MAGIC %md-sandbox
-// MAGIC &copy; 2020 Databricks, Inc. All rights reserved.<br/>
-// MAGIC Apache, Apache Spark, Spark and the Spark logo are trademarks of the <a href="http://www.apache.org/">Apache Software Foundation</a>.<br/>
+// MAGIC &copy; 2021 Databricks, Inc. All rights reserved.<br/>
+// MAGIC Apache, Apache Spark, Spark and the Spark logo are trademarks of the <a href="https://www.apache.org/">Apache Software Foundation</a>.<br/>
 // MAGIC <br/>
-// MAGIC <a href="https://databricks.com/privacy-policy">Privacy Policy</a> | <a href="https://databricks.com/terms-of-use">Terms of Use</a> | <a href="http://help.databricks.com/">Support</a>
+// MAGIC <a href="https://databricks.com/privacy-policy">Privacy Policy</a> | <a href="https://databricks.com/terms-of-use">Terms of Use</a> | <a href="https://help.databricks.com/">Support</a>
