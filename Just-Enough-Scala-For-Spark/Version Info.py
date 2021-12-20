@@ -9,9 +9,9 @@
 
 # MAGIC %md # Project Information
 # MAGIC 
-# MAGIC * Name: **Just Enough Python for Spark**
+# MAGIC * Name: **Just Enough Scala for Spark**
 # MAGIC * Version:  **1.1.2**
-# MAGIC * Built On: **Dec 20, 2021 at 23:45:00 UTC**
+# MAGIC * Built On: **Dec 20, 2021 at 23:52:51 UTC**
 
 # COMMAND ----------
 
